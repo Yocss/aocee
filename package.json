@@ -1,0 +1,44 @@
+{
+  "name": "yocee",
+  "version": "0.1.0",
+  "description": "我的js工具库",
+  "main": "dist/yocee.min.js",
+  "scripts": {
+    "build": "cross-env rollup -c",
+    "test": "cross-env jest ./test"
+  },
+  "keywords": [
+    "javascript",
+    "utils",
+    "tool"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yocss/yocee.git"
+  },
+  "author": "Yocss",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "cross-env": "^5.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^24.9.0",
+    "rollup": "^1.24.0",
+    "rollup-plugin-banner": "^0.2.1",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-typescript": "^1.0.1",
+    "rollup-plugin-uglify": "^6.0.3",
+    "ts-loader": "^6.2.0",
+    "tslib": "^1.10.0",
+    "typescript": "^3.6.4",
+    "webpack": "^4.16.2",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5",
+    "webpack-merge": "^4.2.2"
+  },
+  "dependencies": {
+  }
+}
